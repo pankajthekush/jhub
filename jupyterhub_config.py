@@ -28,6 +28,6 @@ c.DockerSpawner.image = "jupyter/datascience-notebook:latest"
 c.JupyterHub.db_url = "sqlite:///data/jupyterhub.sqlite"
 
 # Enable user registration
-c.Authenticator.allowed_users = set()
-c.Authenticator.admin_users = {'myadmin'}
-c.NativeAuthenticator.open_signup = True
+#c.Authenticator.allowed_users = set()
+#c.Authenticator.admin_users = {'myadmin'}
+#c.NativeAuthenticator.open_signup = True
