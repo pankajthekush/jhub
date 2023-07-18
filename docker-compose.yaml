@@ -3,7 +3,7 @@ version: '3.8'
 services:
   jupyterhub:
     build: .
-    image: my_jupyterhub
+    image: jupyter 
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./jupyterhub_config.py:/srv/jupyterhub/jupyterhub_config.py
